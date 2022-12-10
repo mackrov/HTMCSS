@@ -1,0 +1,68 @@
+body {
+    background:yellow; /*background color of body*/
+    color:green;      /*text color of entire body will be green */
+} 
+
+section {
+    background: red; /*content inside section will get a red BG*/
+    color: black; /*text color of content inside section*/
+    margin: 50px; /*Red BG will have space of 50px on all 4 side,and body 
+                   BG will be shown(yellow here)*/
+
+    padding: 50px;/* THE content inside section will have padding,
+                    we can put the content in the center or anything 
+                    using this*/
+    border: 10px aqua solid; /*it will give border on the section BG 
+                                edge*/
+}
+
+#margin{  
+    /*ID will always win over CLASS or ELEMENT seLectors 
+    though, its mentioned first still the class bg-light is not
+     able to overwrite its color and background that is below*/
+    background: blue;
+    color:black;
+}
+.bg-light{
+    background: #fff;
+    color:#333;
+}
+
+.bg-dark{
+    background: #333;
+    color:#fff;
+}
+/*CLASS will win over element selectors*/
+
+span{
+    /*can be used to change color,size, font of particular text in a para*/
+    color:red;
+}
+
+.text-accent{
+    /*changing color of class of span*/
+    color:green;
+}
+
+.text-dark{
+    /*class of span, span element selector is overwritten for both*/
+    color:orange;
+}
+.container{
+    /*it will control the layout, everything inside container class will
+    have width of 800px */
+    width:800px;
+    /* for margin to work for container class in div it must have width */
+    margin-left: auto; 
+    /* to center left right */
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+main{
+   text-align:center;
+}

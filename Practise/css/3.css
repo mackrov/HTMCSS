@@ -1,0 +1,61 @@
+ /* Comment in CSS*/
+body{
+    background-color:aqua;
+}
+ p{
+    color:green;
+    background-color: red;
+    font-size: 40px;
+    border: dotted;
+   /* width: 400px;
+    /*
+    without width, even if i write small paragraph the red line
+    will go till end in the horizontal, 400 px here makes red line stay 
+    till 400 px and it remains same if windows is resized
+    */
+    /*height: 200px;
+   /*
+   height will fix the height of p so no matter
+   how much scroll up/down the size of browser window
+   it will remian same, and also content if its more than the height
+   it will overflow of the red container
+   */ 
+   
+}
+
+h2{
+    background: pink; /*goes till end without margin-right*/
+    margin-left: 100px;
+    margin-right: 75px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin: 10px 600px 30px 40px;
+    /*
+    margin shorthand
+    -- overwrites above margin-left right and others, works in clockwise
+    top right bottom left, like clock direction, seperated by commas
+    */
+    margin:10px; /*same for all 4 directions*/
+    margin: 10px 20px; /*top bottom & left right*/
+
+    margin: 10px 20px 30px; /*top + left right + bottom*/
+}
+/*padding*/
+h3{
+    background:red;
+    margin: 10px 60px 10px 60px; /*whitespace(bg of teal color)*/
+    padding-top: 100px; 
+    padding-right: 200px;
+    padding-left: 500px; /*centered*/
+    padding-bottom: 100px;
+    border-width:4px; /*width of the border*/
+    border-style:solid; 
+    border-color:yellow;
+
+    border: 4px pink solid; 
+    /*
+    border shorthand
+    order doesn't matter, write in any order, it'll work
+    */
+
+}
