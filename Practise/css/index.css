@@ -1,7 +1,7 @@
 body{
     font-family: serif;
     color:red;
-    background-color: white;
+    background-image: url("astro.jpg");
 }
 h1{
     font-size: 150px;
@@ -17,4 +17,16 @@ h1{
 
 a{
     color:black;
+}
+
+.columns{
+    display: flex;
+}
+.col{
+    margin: 10px;
+    border: 1px solid aqua;
+    padding: 5px;
+}
+.bgss{
+    background-image: url("astro.jpg");
 }

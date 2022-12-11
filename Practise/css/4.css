@@ -66,3 +66,22 @@ p{
 main{
    text-align:center;
 }
+
+.container{
+    display: flex;
+}
+
+/* display:flex on any selector will change selector and its 
+direct child(everything inside) to column */
+body{
+    background-image: url('../astro.jpg');
+    /* watch out for ..
+    it will be looking for image in css folder
+    instead add ../ so it goes back and looks in root folder */
+
+    background-size: cover;
+
+    /* so image doesn't repeat */
+    background-repeat: no-repeat;
+}
+

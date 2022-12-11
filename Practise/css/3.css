@@ -59,3 +59,23 @@ h3{
     */
 
 }
+section{
+    display: flex;
+}
+
+.hero{
+    text-align: left;
+    padding: 14rem 0 25rem;
+    background-image: url('../astro.jpg');
+    background-size: cover;
+}
+.container{
+    /*it will control the layout, everything inside container class will
+    have width of 800px */
+    width:800px;
+    /* for margin to work for container class in div it must have width */
+    margin-left: auto; 
+    /* to center left right */
+    margin-right: auto;
+    background-image: url('../img/moon.jpg');
+}
